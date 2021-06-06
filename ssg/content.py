@@ -1,4 +1,7 @@
 import re
-import load, FullLoader from yaml
 
 from collections.abc import Mapping
+from yaml import load, FullLoader
+
+
+def Content(Mapping):
